@@ -145,8 +145,8 @@ int main() {
 
 	assert(isFull(priq));
 	assert(deleteMin(priq) == 1);
-	for (i = 0; i <=heap->size; i++) {
-		printf(" %d", heap->elements[i]);
+	for (i = 0; i <=priq->size; i++) {
+		printf(" %d", priq->elements[i]);
 	}	
 	assert(!isFull(priq));
 	decreaseKey(priq, 8, 8);
